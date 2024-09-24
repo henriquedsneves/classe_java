@@ -9,6 +9,7 @@ public class AreaCircTeste {
         var a2 = new AreaCirc(5);
         
         System.out.println(AreaCirc.PI);
+        System.out.println(a2);
     }
         
 }

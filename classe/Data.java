@@ -7,13 +7,14 @@ public class Data {
     int ano;
 
      Data(){
-          dia = 1;
-          mes = 1;
-          ano = 1970;
+          //dia = 1;
+          //mes = 1;
+          //ano = 1970;
+          this(1, 1, 1970); // como método
 
      }
-     Data(int diaPadrao, int mesPadrao,int anoPadrao){
-          dia = diaPadrao;
+     Data(int dia, int mesPadrao,int anoPadrao){
+          this.dia = dia; // como instancia
           mes = mesPadrao;
           ano = anoPadrao;
      }
